@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna Kumar Singh | AI/ML Engineer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <i class="fas fa-brain"></i>
+                Krishna Kumar Singh
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div id="particles-js"></div>
+        <div class="hero-content" data-aos="fade-right">
+            <h1>Hello, I'm <span class="highlight">Krishna Kumar Singh</span></h1>
+            <div class="typing-text">
+                <span id="typing-text"></span>
+            </div>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary">View Projects</a>
+                <a href="resume.pdf" class="btn secondary btn-icon" id="resume-btn">
+                    <i class="fas fa-download"></i>
+                    Download Resume
+                </a>
+            </div>
+        </div>
+        <div class="hero-image" data-aos="fade-left">
+            <img src="photo.jpeg" alt="Krishna Kumar singh">
+            " alt="Krishna Kumar singh">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p>I am a B.Tech Computer Science (AI & ML) student, graduating in 2028, with a strong interest in building intelligent and data-driven solutions. My core expertise includes Python, Machine Learning, and Data Analysis, and I focus on applying these skills to solve real-world problems through well-structured projects.</p>
+                    <p>I am currently enhancing my knowledge in advanced AI concepts, data modeling, and algorithm optimization, while actively working on projects that strengthen both my technical and analytical abilities.</p>
+                    <p>I am seeking opportunities to contribute as an intern or collaborator in AI, Machine Learning, or Data Science domains where I can add value, gain industry exposure, and continue to grow as a future-ready professional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Skills & Certifications</h2>
+            <div class="skills-container">
+                <div class="skills-category" data-aos="fade-up">
+                    <h3><i class="fas fa-code"></i> Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-laptop-code"></i>
+                            <h4>Web Development</h4>
+                            <div class="progress-container">
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <h4>HTML</h4>
+                            <div class="progress-container">
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <h4>C (Programming)</h4>
+                            <div class="progress-container">
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <h4>Python</h4>
+                            <div class="progress-container">
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-brain"></i>
+                            <h4>Machine Learning</h4>
+                            <div class="progress-container">
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <h4>Data Science</h4>
+                            <div class="progress-container">
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <h4>SQL</h4>
+                            <div class="progress-container">
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-line"></i>
+                            <h4>Data Analysis</h4>
+                            <div class="progress-container">
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category" data-aos="fade-up">
+                    <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                    <div class="certifications-grid">
+                        <div class="certification-card">
+                            <div class="card-header">
+                                <h4>Certified Web Developer Associate</h4>
+                            </div>
+                            <div class="card-body">
+                                <p>Professional certification in web development technologies and best practices.</p>
+                                <div class="date">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <span>2024</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="certification-card">
+                            <div class="card-header">
+                                <h4>Postman API Fundamentals Student Expert</h4>
+                            </div>
+                            <div class="card-body">
+                                <p>Expertise in API testing and development using Postman tools and methodologies.</p>
+                                <div class="date">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <span>2024</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item left" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <div class="timeline-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>August 2025 - Present</span>
+                        </div>
+                        <h3>Python Developer</h3>
+                        <h4>Codveda Technologies</h4>
+                        <p>Developing Python applications and solutions for various client requirements. Working on data processing and machine learning projects.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right" data-aos="fade-left">
+                    <div class="timeline-content">
+                        <div class="timeline-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>August 2025 - Present</span>
+                        </div>
+                        <h3>Web Developer</h3>
+                        <h4>CodSoft</h4>
+                        <p>Creating responsive and user-friendly web applications using modern web technologies. Collaborating with cross-functional teams.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <div class="timeline-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>August 2025 - Present</span>
+                        </div>
+                        <h3>Software Developer</h3>
+                        <h4>Pinnacle Labs</h4>
+                        <p>Contributing to innovative software projects and gaining hands-on experience in development. Learning industry best practices.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right" data-aos="fade-left">
+                    <div class="timeline-content">
+                        <div class="timeline-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>July 2025 - August 2025</span>
+                        </div>
+                        <h3>Contributor</h3>
+                        <h4>GirlScript Summer of Code</h4>
+                        <p>Actively contributed to open-source projects during the summer coding program. Gained experience in collaborative development.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Education</h2>
+            <div class="education-grid">
+                <div class="education-card" data-aos="fade-up">
+                    <div class="card-header">
+                        <h3>Siliguri Institute of Technology</h3>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Bachelor of Technology - BTech</strong></p>
+                        <p>Computer Science Engineering</p>
+                        <div class="date">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>August 2024 - July 2028</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-card" data-aos="fade-up">
+                    <div class="card-header">
+                        <h3>Maulana Abul Kalam Azad University</h3>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Bachelor of Technology - BTech</strong></p>
+                        <p>Artificial Intelligence</p>
+                        <div class="date">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>August 2024 - August 2028</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-card" data-aos="fade-up">
+                    <div class="card-header">
+                        <h3>Shalini Memorial School Dehradun</h3>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>High School Education</strong></p>
+                        <p>Science Stream</p>
+                        <div class="date">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Completed in 2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+            <div class="project-filters" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ai">AI/ML</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="data">Data Science</button>
+            </div>
+            <div class="project-grid">
+                <div class="project-card" data-category="ai" data-aos="fade-up">
+                    <div class="project-info">
+                        <h3>AI-Powered Image Recognition</h3>
+                        <p>Deep learning model for object detection and image classification using TensorFlow.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">Computer Vision</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web" data-aos="fade-up">
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Full-stack web application for online shopping with payment integration.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="data" data-aos="fade-up">
+                    <div class="project-info">
+                        <h3>Sales Data Analysis Dashboard</h3>
+                        <p>Interactive dashboard for visualizing and analyzing sales data using Python libraries.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Pandas</span>
+                            <span class="tag">Matplotlib</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="ai" data-aos="fade-up">
+                    <div class="project-info">
+                        <h3>Chatbot with NLP</h3>
+                        <p>Intelligent chatbot using natural language processing techniques for customer support.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">NLP</span>
+                            <span class="tag">Machine Learning</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificate Upload Section -->
+    <section id="certificates" class="certificate-upload">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">My Certificates</h2>
+            <div class="upload-container" data-aos="fade-up">
+                <div class="upload-area" id="upload-area">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <p>Drag and drop your certificate here or click to browse</p>
+                    <label for="file-input" class="upload-btn">Choose File</label>
+                    <input type="file" id="file-input" class="file-input" accept=".pdf,.jpg,.jpeg,.png">
+                </div>
+                
+                <h3>My Certificates</h3>
+                <div class="certificates-grid">
+                    <div class="certificate-item">
+                        <div class="certificate-info">
+                            <h4>Certified Web Developer Associate</h4>
+                            <p>Issued by: Web Development Institute</p>
+                            <div class="certificate-actions">
+                                <button class="view-btn"><i class="fas fa-eye"></i> View</button>
+                                <button class="delete-btn"><i class="fas fa-trash"></i> Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="certificate-item">
+                        <div class="certificate-info">
+                            <h4>Postman API Fundamentals</h4>
+                            <p>Issued by: Postman</p>
+                            <div class="certificate-actions">
+                                <button class="view-btn"><i class="fas fa-eye"></i> View</button>
+                                <button class="delete-btn"><i class="fas fa-trash"></i> Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Testimonials</h2>
+            <div class="swiper mySwiper" data-aos="fade-up">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>"Krishna is an exceptional AI/ML developer with a deep understanding of machine learning concepts. His ability to translate complex problems into practical solutions is impressive."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>John Smith</h4>
+                                    <p>CTO, Tech Innovations</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>"Working with Krishna was a great experience. His expertise in Python and data analysis helped us complete our project ahead of schedule."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>Sarah Johnson</h4>
+                                    <p>Project Manager, Data Solutions</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>"Krishna's passion for AI and machine learning is contagious. He brings creativity and technical excellence to every project he works on."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>Michael Chen</h4>
+                                    <p>Lead Developer, AI Labs</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Let's collaborate</h3>
+                    <p>I'm always interested in hearing about new projects and opportunities in AI/ML.</p>
+                    <div class="contact-details">
+                        <p><i class="fas fa-envelope"></i> krishnakumarsingh9470@gmail.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Madhubani, Bihar, India</p>
+                        <p><i class="fab fa-linkedin"></i> https://www.linkedin.com/in/krishna-singh-039b802b2/</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/krishna-singh-039b802b2/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-kaggle"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" data-aos="fade-left">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Krishna Kumar singh. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Modal -->
+    <div id="resumeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Download Resume</h2>
+            <p>Thank you for your interest in my resume. Please click the button below to download.</p>
+            <a href="#" class="btn primary" style="margin-top: 1rem; display: inline-block;">Download PDF</a>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
